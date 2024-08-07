@@ -12,7 +12,7 @@
     "mern",
     "chat-app"
   ],
-  "author": "chirag rai",
+  "author": "chirag",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
