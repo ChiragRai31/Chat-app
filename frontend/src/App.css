@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  position: relative; 
+  background-image: url("./wallapaper.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); /* Adjust color and opacity */
+  z-index: 1; /* Ensures it sits above the background image but below other content */
+}
+
+.App > * {
+  position: relative;
+  z-index: 2; /* Ensures content appears above the overlay */
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
