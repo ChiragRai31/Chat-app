@@ -29,7 +29,7 @@ Type08 is a full-stack real-time chat application built using the **MERN stack**
 
 ## 🌍 Live Demo
 
-🔗 [Visit Type08 Chat App](https://type08-chat.onrender.com) *(Replace with your actual URL)*
+🔗 [Visit Type08 Chat App](https://chat-app-2fzv.onrender.com/) *(Replace with your actual URL)*
 
 ## 🧑‍💻 Developer
 
